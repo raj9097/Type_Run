@@ -1,0 +1,26 @@
+export const THEMES = {
+  dark: {
+    bg:           "#0e0e12",
+    surface:      "#13131a",
+    surface2:     "#1a1a24",
+    border:       "#1e1e2a",
+    textPrimary:  "#e0e0e0",
+    textSecondary:"#999",
+    textMuted:    "#444",
+    correct:      "#e0e0e0",
+    wrong:        "#fc5c65",
+    pending:      "#333344",
+  },
+  light: {
+    bg:           "#f0f0f4",
+    surface:      "#ffffff",
+    surface2:     "#f4f4f8",
+    border:       "#ddd",
+    textPrimary:  "#1a1a2e",
+    textSecondary:"#666",
+    textMuted:    "#aaa",
+    correct:      "#1a1a2e",
+    wrong:        "#e03147",
+    pending:      "#bbbbc8",
+  },
+};
