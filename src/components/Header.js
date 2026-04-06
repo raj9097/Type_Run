@@ -14,8 +14,8 @@ export function Header({
   progress, meta
 }) {
   return (
-    <header style={{ width: "100%", maxWidth: 1080, background: T.surface, border: `1px solid ${T.border}`, borderRadius: "0 0 22px 22px", marginBottom: 28, overflow: "hidden", boxShadow: theme === "dark" ? "0 4px 40px rgba(0,0,0,0.4)" : "0 4px 24px rgba(0,0,0,0.08)" }}>
-      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "18px 28px", gap: 16, flexWrap: "wrap" }}>
+    <header style={{ width: "100%", background: T.surface, border: `1px solid ${T.border}`, borderRadius: "0 0 22px 22px", marginBottom: 28, overflow: "hidden", boxShadow: theme === "dark" ? "0 4px 40px rgba(0,0,0,0.4)" : "0 4px 24px rgba(0,0,0,0.08)" }}>
+      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "20px 36px", gap: 16, flexWrap: "wrap" }}>
 
         {/* Logo */}
         <motion.div initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} style={{ display: "flex", alignItems: "center", gap: 14, flexShrink: 0 }}>
